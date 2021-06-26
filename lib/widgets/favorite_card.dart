@@ -1,3 +1,4 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 
 class FavoriteCard extends StatelessWidget {
@@ -21,9 +22,10 @@ class FavoriteCard extends StatelessWidget {
       child: Stack(children: [
         ClipRRect(
           borderRadius: BorderRadius.circular(15),
-          child: Image.network(
-            imageUrl,
+          child: CachedNetworkImage(
+            imageUrl: imageUrl,
             fit: BoxFit.fitWidth,
+            placeholder: (_, __) => Center(child: CircularProgressIndicator()),
           ),
         ),
         Container(

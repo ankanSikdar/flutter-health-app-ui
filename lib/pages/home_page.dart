@@ -1,3 +1,4 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:health_ui/widgets/favorites.dart';
 import 'package:line_icons/line_icons.dart';
@@ -14,7 +15,7 @@ class HomePage extends StatelessWidget {
             leading: Container(
               margin: EdgeInsets.symmetric(horizontal: 8.0, vertical: 4.0),
               child: CircleAvatar(
-                backgroundImage: NetworkImage(
+                backgroundImage: CachedNetworkImageProvider(
                     "https://avatars.githubusercontent.com/u/26273866?v=4"),
               ),
             ),
