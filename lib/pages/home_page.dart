@@ -14,6 +14,7 @@ class HomePage extends StatelessWidget {
       body: CustomScrollView(
         slivers: [
           SliverAppBar(
+            pinned: true,
             leading: Container(
               margin: EdgeInsets.symmetric(horizontal: 8.0, vertical: 4.0),
               child: CircleAvatar(
@@ -35,7 +36,7 @@ class HomePage extends StatelessWidget {
           ),
           SliverToBoxAdapter(
             child: Padding(
-              padding: EdgeInsets.fromLTRB(12.0, 20.0, 0, 0),
+              padding: EdgeInsets.fromLTRB(12.0, 20.0, 0, 20.0),
               child: Column(
                 children: [
                   FavoriteWidget(),

@@ -12,9 +12,8 @@ class GoalsPage extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.white,
       body: Padding(
-        padding: EdgeInsets.all(16.0),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
+        padding: EdgeInsets.fromLTRB(16.0, 16.0, 16.0, 100.0),
+        child: ListView(
           children: [
             Container(
               alignment: Alignment.center,
