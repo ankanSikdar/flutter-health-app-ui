@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:health_ui/widgets/header.dart';
 import 'package:health_ui/widgets/favorite_card.dart';
 
 class FavoriteWidget extends StatelessWidget {
@@ -9,13 +10,7 @@ class FavoriteWidget extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text(
-          'Favorite Workouts',
-          style: TextStyle(
-            fontSize: 25.0,
-            fontWeight: FontWeight.bold,
-          ),
-        ),
+        Header(text: 'Favorite Workouts'),
         Container(
           height: 250.0,
           child: ListView(
