@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:health_ui/widgets/favorite_card.dart';
 import 'package:health_ui/widgets/header.dart';
 import 'package:health_ui/widgets/workout_category.dart';
 
