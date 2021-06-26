@@ -1,5 +1,6 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
+import 'package:health_ui/widgets/categories.dart';
 import 'package:health_ui/widgets/favorites.dart';
 import 'package:line_icons/line_icons.dart';
 
@@ -37,6 +38,8 @@ class HomePage extends StatelessWidget {
               child: Column(
                 children: [
                   FavoriteWidget(),
+                  SizedBox(height: 16.0),
+                  CategoriesWidget(),
                 ],
               ),
             ),
