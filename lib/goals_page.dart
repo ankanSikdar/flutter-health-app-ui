@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:health_ui/config.dart';
 import 'package:health_ui/goal_card.dart';
+import 'package:line_icons/line_icons.dart';
 
 class GoalsPage extends StatelessWidget {
   const GoalsPage({Key key}) : super(key: key);
@@ -40,17 +41,17 @@ class GoalsPage extends StatelessWidget {
             GoalCard(
               upperTitle: 'HIIT',
               mainTitle: 'Lose Weight',
-              icon: Icons.calendar_today_rounded,
+              icon: LineIcons.calendarCheck,
             ),
             GoalCard(
               upperTitle: 'BODYWEIGHT',
               mainTitle: 'Be Toned',
-              icon: Icons.run_circle_outlined,
+              icon: LineIcons.running,
             ),
             GoalCard(
               upperTitle: 'WEIGHTS',
               mainTitle: 'Gain Muscle',
-              icon: Icons.accessibility_new_rounded,
+              icon: LineIcons.dumbbell,
             ),
           ],
         ),
