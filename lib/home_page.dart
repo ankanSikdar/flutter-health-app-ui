@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:health_ui/favorites.dart';
+import 'package:health_ui/goal_card.dart';
 import 'package:line_icons/line_icons.dart';
 
 class HomePage extends StatelessWidget {
@@ -33,19 +35,8 @@ class HomePage extends StatelessWidget {
             child: Padding(
               padding: EdgeInsets.fromLTRB(12.0, 20.0, 0, 0),
               child: Column(
-                crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
-                  Row(
-                    children: [
-                      Text(
-                        'Favorite Workouts',
-                        style: TextStyle(
-                          fontSize: 25.0,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                    ],
-                  )
+                  FavoriteWidget(),
                 ],
               ),
             ),
