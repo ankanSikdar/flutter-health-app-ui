@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:health_ui/favorite_card.dart';
-import 'package:health_ui/goal_card.dart';
-import 'package:line_icons/line_icons.dart';
+import 'package:health_ui/widgets/favorite_card.dart';
 
 class FavoriteWidget extends StatelessWidget {
   const FavoriteWidget({Key key}) : super(key: key);

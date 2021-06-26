@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:health_ui/config.dart';
-import 'package:health_ui/goal_card.dart';
-import 'package:health_ui/home_page.dart';
+import 'package:health_ui/widgets/goal_card.dart';
+import 'package:health_ui/pages/home_page.dart';
 import 'package:line_icons/line_icons.dart';
 
 class GoalsPage extends StatelessWidget {

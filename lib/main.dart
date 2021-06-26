@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:health_ui/goals_page.dart';
+import 'package:health_ui/pages/goals_page.dart';
 
 void main() {
   runApp(MyApp());

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:health_ui/favorites.dart';
-import 'package:health_ui/goal_card.dart';
+import 'package:health_ui/widgets/favorites.dart';
 import 'package:line_icons/line_icons.dart';
 
 class HomePage extends StatelessWidget {

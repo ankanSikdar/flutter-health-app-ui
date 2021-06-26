@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'config.dart';
+import 'package:health_ui/config.dart';
 
 class GoalCard extends StatefulWidget {
   final String upperTitle;
