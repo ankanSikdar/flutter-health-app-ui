@@ -18,7 +18,7 @@ class HomePage extends StatelessWidget {
               margin: EdgeInsets.symmetric(horizontal: 8.0, vertical: 4.0),
               child: CircleAvatar(
                 backgroundImage: CachedNetworkImageProvider(
-                    "https://avatars.githubusercontent.com/u/26273866?v=4"),
+                    "https://images.unsplash.com/photo-1506863530036-1efeddceb993?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8"),
               ),
             ),
             centerTitle: true,
