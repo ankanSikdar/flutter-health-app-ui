@@ -24,12 +24,36 @@ class CategoriesWidget extends StatelessWidget {
             ),
             scrollDirection: Axis.horizontal,
             children: [
-              WorkoutCategory(),
-              WorkoutCategory(),
-              WorkoutCategory(),
-              WorkoutCategory(),
-              WorkoutCategory(),
-              WorkoutCategory(),
+              WorkoutCategory(
+                imageUrl:
+                    'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib',
+                title: 'PLYOMETRIC',
+              ),
+              WorkoutCategory(
+                imageUrl:
+                    'https://images.unsplash.com/photo-1571388208497-71bedc66e932?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8',
+                title: 'HIIT',
+              ),
+              WorkoutCategory(
+                imageUrl:
+                    'https://images.unsplash.com/photo-1596357395217-80de13130e92?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib',
+                title: 'WEIGHTS',
+              ),
+              WorkoutCategory(
+                imageUrl:
+                    'https://images.unsplash.com/photo-1574680178050-55c6a6a96e0a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8',
+                title: 'BODYWEIGHT',
+              ),
+              WorkoutCategory(
+                imageUrl:
+                    'https://images.unsplash.com/photo-1574680088814-c9e8a10d8a4d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib',
+                title: 'LUNGES',
+              ),
+              WorkoutCategory(
+                imageUrl:
+                    'https://images.unsplash.com/photo-1597452485669-2c7bb5fef90d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib',
+                title: 'CALVES',
+              ),
             ],
           ),
         )
