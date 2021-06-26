@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:health_ui/config.dart';
 import 'package:health_ui/goal_card.dart';
+import 'package:health_ui/home_page.dart';
 import 'package:line_icons/line_icons.dart';
 
 class GoalsPage extends StatelessWidget {
@@ -59,7 +60,14 @@ class GoalsPage extends StatelessWidget {
       bottomSheet: Padding(
         padding: EdgeInsets.symmetric(horizontal: 16.0, vertical: 12.0),
         child: ElevatedButton(
-          onPressed: () {},
+          onPressed: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) => HomePage(),
+              ),
+            );
+          },
           child: Text(
             'Continue',
             style: TextStyle(fontSize: 22.0),
